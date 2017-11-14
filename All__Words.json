@@ -1,0 +1,654 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "76225b61-c971-11e7-ab18-600292870857", 
+    "deck_config_uuid": "e61fadd0-5295-11e7-8051-600292870857", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "e61fadd0-5295-11e7-8051-600292870857", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "LBEIMinAfter": 4, 
+                "LBEIMinBefore": 4, 
+                "LBGIMinAfter": 1, 
+                "LBGIMinBefore": 1, 
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 15, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": 1485450360678, 
+    "name": "All::Words", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Reference", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic (and reversed card)", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "words"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 2", 
+                    "ord": 1, 
+                    "qfmt": "{{Back}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Reference", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic (and reversed card)-7b238", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "words"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 2", 
+                    "ord": 1, 
+                    "qfmt": "{{Back}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Reference", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "To be clear and shrill", 
+                "Clarion -- Adjective [klar-ee-uh n]", 
+                "dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "EG5.h{umM#", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The principles or art of making bells", 
+                "Campanology -- Noun [kam-puh-nol-uh-jee]", 
+                "dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "qVC8Gh<BYO", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The non-clerical, or secular control of polical and social institutions in society", 
+                "Laicism - Noun [ley-uh-siz-uh m]", 
+                "dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "dVsZQC1mFO", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Meaning heart shaped", 
+                "Cordate - Adjective  [kawr-deyt]", 
+                "dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "ePWHB", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shaped like an arrowhead", 
+                "Saggitate - Adjective [saj-i-teyt]", 
+                "Dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "AzheS", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A person appointed to speak at official meetings", 
+                "Orator (n)", 
+                "Dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "DomvJ", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The use of clever but false arguments, especially with intent to deceive...", 
+                "Sophistry ", 
+                "Bing Translator"
+            ], 
+            "flags": 0, 
+            "guid": "4K1c4", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "An undeniable truth or universally accepted idea...", 
+                "Axiom (n.)", 
+                "Dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "3,uF9", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "One who acts in an obsequious manner in order to gain the favour of someone important...", 
+                "Sycophant  (n.)", 
+                "Dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": ")?3NJ", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A short oblique stroke indication that the words on either side of it may be appropriate for the context of the sentence.", 
+                "Virgule ", 
+                "Dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "k7=nN", 
+            "note_model_uuid": "762345c0-c971-11e7-800a-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A systematic writing about a topic...", 
+                "Treatise  (n) (tree-tis)", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "d%sHC", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A piece of armour consisting of a breastplate and backplate fastened together...", 
+                "Cuirass  (n) (Cure-ass)<br>", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": ")xsh6", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Taking the place of another person or thing / performed, exercised, received or suffered in place of another...", 
+                "Vicarious", 
+                "Dictionary.com"
+            ], 
+            "flags": 0, 
+            "guid": "ovBNV", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A brief, evocative description, account or episode...<div><br /></div><div>...alternatively...</div><div><br /></div><div>A small photograph which fades into its background without definitive border...</div>", 
+                "<div>Vignette&nbsp;</div><div>(n) (Vin-yet)</div><div><br /></div><div>From the French, \"Little vine...\"....</div>", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "D^{&yIo8:l", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A situation of severe trial, or in which various elements intract to create something new...", 
+                "Crucible (n)", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "u8zF]5[OMx", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A word used to emphasis; often to qualify a metaphor...", 
+                "Veritable (adj.)<div><br /></div><div>E.g. \"the early 1970s witnessed a veritable price explosion\"</div>", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "kJPf+Fw35C", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "To treat serious issues with deliberate and inappropriate humour; flippant", 
+                "Fecetious (adj.)", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "PmdO6}(_}U", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "To be very attentive to and concerned about accuracy and detail", 
+                "Fastidious (adj)", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "c7ziY%W,%8", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ocurring optionally in response to cirrcumstances rather than by nature...", 
+                "Facultative", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "rIIqljf0TT", 
+            "note_model_uuid": "e6204a0f-5295-11e7-9249-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A small peg or plug... Often used in a cask.", 
+                "Spigot (n.)", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "K=-D1", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A particular way of speaking / use of words, especially common to those with a particular job or interest...", 
+                "Parlance (noun; Par-Lance)<div><br /></div><div>E.g. He uses terms which were once common parlance.</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r23T=2,s>h", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "One of the 12 female hosts in Norse mythology who decides who may live and die on the battlefield...<div><br /></div><div>&nbsp;- The valkries bring their chosen dead to the afterlife hall of the slain --- Valhalla (ruled over by the god Odin; of whom they are daughters)</div><div>&nbsp;- The remainder of the dead belong to Freja</div>", 
+                "Valkyrie (n)", 
+                "Wiki"
+            ], 
+            "flags": 0, 
+            "guid": "NdvM9x6bM;", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Describes a tendancy to frequent flowers... (typically referring to insects and animals)", 
+                "Anthophilous<div>(adjective)</div>", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "LtKGvIneX|", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "An act or remark that is calculated to gain advantage, especially at the outset of a situation...", 
+                "Gambit (n)", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "d+7[a>-H+q", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The former holder of an office (especially a university professor) having retired but allowed to retain their title as an honour.", 
+                "Emeritus --- eee-merit-us<div>(adj.)</div>", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "t$=_EswM/Z", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "An extremely confusing, complicated or embarrasing situation", 
+                "<b>Imbroglio</b><div><br /></div><div>(noun)(im-bro-lee-oh)</div><div><br /></div><div><div>\"the abdication imbroglio of 1936\"</div><div><br /></div><div>Synonyms:<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>complicated situation, complication, complexity, problem, difficulty, predicament, plight, trouble, entanglement, confusion, muddle, mess, quandary, dilemma</div></div>", 
+                "Google"
+            ], 
+            "flags": 0, 
+            "guid": "i(Oj&zjagb", 
+            "note_model_uuid": "5150d9b0-c971-11e7-b30c-600292870857", 
+            "tags": [
+                "words"
+            ]
+        }
+    ]
+}
